@@ -12,9 +12,10 @@ namespace UnitTest1
 	public:
 		TEST_METHOD(TestMethod1)
 		{
-			Money a(0, 0), b( 0, 0);
-			double c = Object::getCount();
-			Assert::AreEqual(c, 2);
+			
+			Money a(0, 0), b( 0, 0), c(0, 0);
+			double d = Object::getCount();
+			Assert::AreEqual(d, 3.);
 		}
 	};
 }
